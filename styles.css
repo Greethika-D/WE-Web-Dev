@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+.collapsible {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    text-align: left;
+}
+
+.content {
+    margin-left: 20px;
+    display: none;
+    padding: 10px;
+    border-left: 2px solid #ccc;
+}
+
+.toc-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.toc-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc-container ul li {
+    margin: 5px 0;
+}
